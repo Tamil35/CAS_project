@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-01T11:10:31 IST" name="Suite" finished-at="2024-04-01T11:12:36 IST" duration-ms="124535">
+    <groups>
+    </groups>
+    <test started-at="2024-04-01T11:10:31 IST" name="Chrome_Test" finished-at="2024-04-01T11:12:36 IST" duration-ms="124535">
+      <class name="testSuites.TestSuite_1">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testSuites.TestSuite_1@59402b8f]" started-at="2024-04-01T11:10:32 IST" name="setup" finished-at="2024-04-01T11:11:37 IST" duration-ms="65465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateUser(java.lang.String)[pri:1, instance:testSuites.TestSuite_1@59402b8f]" started-at="2024-04-01T11:11:37 IST" name="validateUser" finished-at="2024-04-01T11:11:39 IST" duration-ms="1644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUser -->
+        <test-method signature="validateWelcomeMessage(java.lang.String)[pri:2, instance:testSuites.TestSuite_1@59402b8f]" started-at="2024-04-01T11:11:39 IST" name="validateWelcomeMessage" finished-at="2024-04-01T11:11:56 IST" depends-on-methods="testSuites.TestSuite_1.validateUser" duration-ms="17080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomeMessage -->
+        <test-method signature="validateDefaultLanguageAndCountry(java.lang.String)[pri:3, instance:testSuites.TestSuite_1@59402b8f]" started-at="2024-04-01T11:11:56 IST" name="validateDefaultLanguageAndCountry" finished-at="2024-04-01T11:11:57 IST" depends-on-methods="testSuites.TestSuite_1.validateWelcomeMessage" duration-ms="742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDefaultLanguageAndCountry -->
+        <test-method signature="getLanguages(java.lang.String)[pri:4, instance:testSuites.TestSuite_1@59402b8f]" started-at="2024-04-01T11:11:57 IST" name="getLanguages" finished-at="2024-04-01T11:11:57 IST" depends-on-methods="testSuites.TestSuite_1.validateWelcomeMessage" duration-ms="263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLanguages -->
+        <test-method signature="checkDetails(java.lang.String)[pri:5, instance:testSuites.TestSuite_1@59402b8f]" started-at="2024-04-01T11:11:57 IST" name="checkDetails" finished-at="2024-04-01T11:12:26 IST" depends-on-methods="testSuites.TestSuite_1.validateWelcomeMessage" duration-ms="29205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testSuites.TestSuite_1@59402b8f]" started-at="2024-04-01T11:12:26 IST" name="tearDown" finished-at="2024-04-01T11:12:36 IST" duration-ms="9632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testSuites.TestSuite_1 -->
+    </test> <!-- Chrome_Test -->
+  </suite> <!-- Suite -->
+</testng-results>
